@@ -2,7 +2,7 @@ let nome = "Alan Mathison Turing"
 
 let lista_nome_invertida = nome.split(" ").reverse()
 
-novo_formato = ""
+let novo_formato = ""
 for (let index in lista_nome_invertida){
     if (Number(index) === lista_nome_invertida.length -1){
         lista_nome_invertida[index] = lista_nome_invertida[index].charAt(0).toUpperCase() + lista_nome_invertida[index].slice(1,lista_nome_invertida[index].length)
